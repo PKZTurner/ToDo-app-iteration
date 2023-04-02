@@ -1,0 +1,56 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-ctr {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  text-align: center;
+}
+
+.header {
+  /* flex-grow: 2; */
+  display: block;
+  padding: 10px;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.to-do-items {
+  width: 10%vw;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+  /* width: 10%vw; */
+  margin: 0;
+}
+
+li {
+  padding-bottom: 20px;
+  background-color: rgb(215, 230, 245);
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  width: 250px;
+  height: 30px;
+}
+
+button,
+input {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
