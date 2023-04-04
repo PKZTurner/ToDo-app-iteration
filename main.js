@@ -1,22 +1,4 @@
 //function to calculate the average of an array
-
-function calcAvg(numbers) {
-  let addition = 0;
-  for (i = 0; addition < numbers.length; i++) {
-    addition += numbers[i];
-  }
-  return addition / numbers.length;
-}
-
-// console.log(calcAvg([1, 3, 19, 2, 3]));
-
-function Palindrome(string) {
-  let regexPattern = /[^A-Za-z0-9]/g;
-  let firstString = string.toLowerCase().replace(regexPattern, "");
-  let reverseString = firstString.split("").reverse().join("");
-  return firstString === reverseString;
-}
-
 // Data containers: forms, user inputs, list items, and clear button
 let formField = document.querySelector("#user-todo");
 let todoListItems = document.querySelector("#todo-list");
