@@ -1,4 +1,3 @@
-//function to calculate the average of an array
 // Data containers: forms, user inputs, list items, and clear button
 let formField = document.querySelector("#user-todo");
 let todoListItems = document.querySelector("#todo-list");
