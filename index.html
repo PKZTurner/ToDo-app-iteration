@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo Tracker</title>
-  </head>
-  <body>
-    <div class="main-ctr">
-      <div class="nav-bar"></div>
-      <div class="header">
-        <h1 id="title">To-Do Tracker!</h1>
-      </div>
-      <div class="to-do-items">
-        <form action="Todo-list" id="user-todo">
-          <input
-            type="text"
-            name="new-to-do"
-            id="new-to-do"
-            placeholder="New Todo"
-            required
-          />
-          <input type="submit" value="Submit" />
-        </form>
-        <h2 id="todo-header">Todos</h2>
-        <ul id="todo-list"></ul>
-        <button id="clear-button">Clear all</button>
-      </div>
-    </div>
-    <script src="main.js"></script>
-  </body>
-</html>
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo Tracker</title>
+      </head>
+      <body>
+        <div class="main-ctr">
+          <div class="nav-bar"></div>
+          <div class="header">
+            <h1 id="title">To-Do Tracker!</h1>
+          </div>
+          <div class="to-do-items">
+            <form id="user-todo">
+              <input
+                type="text"
+                id="new-to-do"
+                placeholder="Enter a todo item"
+              />
+              <button type="submit">Add</button>
+            </form>
+            <ul id="todo-list"></ul>
+            <button id="clear-button">Clear All</button>
+          </div>
+        </div>
+        <script src="main.js"></script>
+      </body>
+    </html>
